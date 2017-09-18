@@ -2,8 +2,8 @@
 
 [Deluge website](http://deluge-torrent.org/)  
 [OpenVPN website](https://openvpn.net/)  
-[Privoxy website](http://www.privoxy.org/)
-[Filebot website](http://filebot.net)
+[Privoxy website](http://www.privoxy.org/)  
+[Filebot website](http://filebot.net)  
 
 **Description**
 
