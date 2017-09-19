@@ -6,12 +6,13 @@ MAINTAINER themetabay
 
 # add bash script to setup iptables
 ADD run/root/*.sh /root/
+ADD run/nobody/*.sh /home/nobody
 
 # install filebot
 #############
 
 # make executable and run bash scripts to install app
-RUN /bin/bash /root/filebot-install.sh
+RUN chmod +x /home/nobody/*.sh && chmod +x /root/*.sh && /bin/bash /root/filebot-install.sh
 
 # docker settings
 #################
