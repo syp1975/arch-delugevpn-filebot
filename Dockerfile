@@ -6,7 +6,7 @@ MAINTAINER themetabay
 
 # add bash script to setup iptables
 ADD run/root/*.sh /root/
-ADD run/nobody/*.sh /home/nobody
+ADD run/nobody/*.sh /home/nobody/
 
 # install filebot
 #############
