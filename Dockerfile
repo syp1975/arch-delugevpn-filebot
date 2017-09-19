@@ -12,7 +12,8 @@ ADD run/nobody/*.sh /home/nobody/
 #############
 
 # make executable and run bash scripts to install app
-RUN chmod +x /home/nobody/*.sh /root/*.sh && /bin/bash /root/filebot-install.sh
+RUN chmod +x /home/nobody/*.sh /root/*.sh 
+#&& /bin/bash /root/filebot-install.sh
 
 # docker settings
 #################
